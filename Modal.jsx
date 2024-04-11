@@ -7,7 +7,7 @@ import './App.css'
 function Modal({isOpen, closeModal}) {
  
   return (
-      
+      <>
       <div className="container" style={{ display: isOpen ? "block" : "none"}}>
         <div className="modal-box">
           <h2>안녕하세요</h2>
@@ -15,7 +15,7 @@ function Modal({isOpen, closeModal}) {
           <button onClick={closeModal}>닫기</button>
         </div>
       </div>
-      
+      </>
   );
 }
 
